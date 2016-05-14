@@ -25,7 +25,7 @@ class Service_Times: UIViewController
 
         // Do any additional setup after loading the view.
         
-        self.logoImage.image = UIImage(named: "gllogo.jpg")
+        self.logoImage.image = UIImage(named: "lcmslogowwords.jpeg")
 
     }
 

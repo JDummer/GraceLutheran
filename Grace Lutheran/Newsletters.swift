@@ -30,8 +30,8 @@ class Newsletters: UIViewController
 
     func loadaddress()
     {
-        //let url = NSURL (string: "http://graceoakcreek.org/Church/TheEquipperMonthlyNewsletter/tabid/995/Default.aspx")
-        let url = NSURL (string: "http://graceoakcreek.org/LinkClick.aspx?fileticket=OAuhpAD1lQU%3d&tabid=995")
+        let url = NSURL (string: "http://graceoakcreek.org/LinkClick.aspx?fileticket=IYoOyBRIJzs%3d&tabid=995")
+        //let url = NSURL (string: "http://graceoakcreek.org/LinkClick.aspx?fileticket=OAuhpAD1lQU%3d&tabid=995")
         let requestObj = NSURLRequest(URL: url!)
         newslettersWV.loadRequest(requestObj)
     }

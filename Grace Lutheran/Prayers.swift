@@ -19,11 +19,6 @@ class Prayers: UIViewController
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    @IBAction func submitPrayerButton(sender: AnyObject)
-    {
-        
-    }
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()

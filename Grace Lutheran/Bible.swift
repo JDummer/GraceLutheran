@@ -59,8 +59,7 @@ class Bible: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
                 let responseone = response.objectForKey("response")
                 let verses = responseone?.objectForKey("verses")?.objectAtIndex(0)
                 let text = verses?.objectForKey("text")
-                //let str = text!.stringByReplacingOccurrencesOfString("(?i)</?\(tag)\\b[^<]*>", withString: "")
-               // let str = text.stringByReplacingOccurrencesOfString("<[^>]+>", withString: "", options: .RegularExpressionSearch, range: nil)
+
                 
                 let htmlStringData = text!.dataUsingEncoding(NSUTF8StringEncoding)!
                 
@@ -77,56 +76,9 @@ class Bible: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
                 print("Request failed with error: \(error)")
                 }
         }
-                        print(verse)
+                       // print(verse)
     }
-        /*
-         chapter = self.chapterTF.text as String!
-         verse = self.verseTF.text as String!
-         let requestURL: NSURL = NSURL(string: "https://api.biblia.com/v1/bible/content/ASV.xml.json?passage=\(book)+\(self.chapter).\(self.verse)&key=1a890abc5191083853bfa91cf607d1a0")!
-         let urlRequest: NSMutableURLRequest = NSMutableURLRequest(URL: requestURL)
-         let session = NSURLSession.sharedSession()
-         let task = session.dataTaskWithRequest(urlRequest)
-         {
-         (data, response, error) -> Void in
-         
-         let httpResponse = response as! NSHTTPURLResponse
-         let statusCode = httpResponse.statusCode
-         
-         if (statusCode == 200)
-         {
-         do
-         {
-         let json = try NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers)
-         
-         print(json["text"] as! String)
-         //self.bibleVerseLabel.text = json["text"] as! String
-         PhoneCore.bibleVerse = json["text"] as! String
-         //self.performSelectorOnMainThread(Selector("updatePostLabel:"), withObject: json["text"], waitUntilDone: false)
-         
-         //self.performselector
-         
-         }
-         catch
-         {
-         print("Error with Json: \(error)")
-         }
-         
-         }
-         else
-         {
-         print(statusCode)
-         }
-         
-         }
-         
-         task.resume()
-         // self.performSegueWithIdentifier("bibleVerse", sender: self)
-         
-         //self.bibleVerseLabel.text = PhoneCore.bibleVerse
-         //print("label set")
-         
-         */
-    
+            
     
     @IBAction func backButton(sender: AnyObject)
     {
@@ -139,13 +91,20 @@ class Bible: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
 
         // Do any additional setup after loading the view.
         
-        //bookPicker.dataSource = self
-        //bookPicker.delegate = self
-        
         self.bibleVerseLabel.text = ""
         self.chapterTF.becomeFirstResponder()
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(Bible.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
 
+    
+    func dismissKeyboard()
+    {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
@@ -169,10 +128,9 @@ class Bible: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
     {
-        //self.garbage = pickerData[row]
         self.bookBucket = pickerDataForURL[row]
         print(bookBucket)
-        //print(bookBucket)
+
         
     }
 }

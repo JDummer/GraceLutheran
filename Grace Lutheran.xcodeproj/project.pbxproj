@@ -9,15 +9,38 @@
 /* Begin PBXBuildFile section */
 		AB1B26271CA3375200BDE9FA /* PhoneCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B26261CA3375200BDE9FA /* PhoneCore.swift */; };
 		AB1B26291CA5E0AE00BDE9FA /* Bible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B26281CA5E0AE00BDE9FA /* Bible.swift */; };
-		AB1DAB161C815971009B4382 /* gllogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1DAB151C815971009B4382 /* gllogo.jpg */; };
+		AB543F6A1CD7F68400030CD1 /* church.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F671CD7F68400030CD1 /* church.png */; };
+		AB543F6B1CD7F68400030CD1 /* ecc.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F681CD7F68400030CD1 /* ecc.png */; };
+		AB543F6C1CD7F68400030CD1 /* school.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F691CD7F68400030CD1 /* school.png */; };
+		AB543F731CD9561E00030CD1 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F6E1CD9561E00030CD1 /* logo58.png */; };
+		AB543F741CD9561E00030CD1 /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F6F1CD9561E00030CD1 /* logo80.png */; };
+		AB543F751CD9561E00030CD1 /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F701CD9561E00030CD1 /* logo87.png */; };
+		AB543F761CD9561E00030CD1 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F711CD9561E00030CD1 /* logo120.png */; };
+		AB543F771CD9561E00030CD1 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F721CD9561E00030CD1 /* logo180.png */; };
+		AB543F791CDA818700030CD1 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F781CDA818700030CD1 /* Home.png */; };
+		AB543F7B1CDA875D00030CD1 /* square-individual-nine-7.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F7A1CDA875D00030CD1 /* square-individual-nine-7.png */; };
+		AB543F7E1CDA87EF00030CD1 /* book-cover-7.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F7C1CDA87EF00030CD1 /* book-cover-7.png */; };
+		AB543F7F1CDA87EF00030CD1 /* calendar-7.png in Resources */ = {isa = PBXBuildFile; fileRef = AB543F7D1CDA87EF00030CD1 /* calendar-7.png */; };
 		AB6DC89B1CC5C4450069B3CA /* Prayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC89A1CC5C4450069B3CA /* Prayers.swift */; };
 		AB6DC89D1CC5C4510069B3CA /* Newsletters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC89C1CC5C4510069B3CA /* Newsletters.swift */; };
 		AB6DC8A11CC5C46E0069B3CA /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC8A01CC5C46E0069B3CA /* Facebook.swift */; };
 		AB6DC8A31CC5C47B0069B3CA /* Donations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC8A21CC5C47B0069B3CA /* Donations.swift */; };
 		AB6DC8A51CC5C4890069B3CA /* Service Times.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC8A41CC5C4890069B3CA /* Service Times.swift */; };
 		AB6DC8C51CC6F1670069B3CA /* Submit Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC8C41CC6F1670069B3CA /* Submit Prayer.swift */; };
-		AB6DC8C71CC6FB1A0069B3CA /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AB6DC8C61CC6FB1A0069B3CA /* Home.png */; };
 		AB6DC8C91CC725E70069B3CA /* lcms-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB6DC8C81CC725E70069B3CA /* lcms-logo.png */; };
+		AB6EB7231CD2956900F01C0E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71A1CD2956900F01C0E /* Accelerate.framework */; };
+		AB6EB7241CD2956900F01C0E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71B1CD2956900F01C0E /* AudioToolbox.framework */; };
+		AB6EB7251CD2956900F01C0E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71C1CD2956900F01C0E /* AVFoundation.framework */; };
+		AB6EB7261CD2956900F01C0E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71D1CD2956900F01C0E /* CoreLocation.framework */; };
+		AB6EB7271CD2956900F01C0E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71E1CD2956900F01C0E /* CoreMedia.framework */; };
+		AB6EB7281CD2956900F01C0E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB71F1CD2956900F01C0E /* MessageUI.framework */; };
+		AB6EB7291CD2956900F01C0E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB7201CD2956900F01C0E /* MobileCoreServices.framework */; };
+		AB6EB72A1CD2956900F01C0E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB7211CD2956900F01C0E /* SafariServices.framework */; };
+		AB6EB72B1CD2956900F01C0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EB7221CD2956900F01C0E /* SystemConfiguration.framework */; };
+		AB6EB72D1CD3EA8400F01C0E /* Contact Us.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6EB72C1CD3EA8400F01C0E /* Contact Us.swift */; };
+		AB6EB72F1CD4501400F01C0E /* lcmslogowwords.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB6EB72E1CD4501400F01C0E /* lcmslogowwords.jpeg */; };
+		AB6EB7311CD4526200F01C0E /* gllogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6EB7301CD4526200F01C0E /* gllogo.jpg */; };
+		AB6EB7331CD4816800F01C0E /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6EB7321CD4816800F01C0E /* Directions.swift */; };
 		AB7970E41C80EC650016F2AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7970E31C80EC650016F2AC /* AppDelegate.swift */; };
 		AB7970E91C80EC650016F2AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7970E71C80EC650016F2AC /* Main.storyboard */; };
 		AB7970EB1C80EC650016F2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7970EA1C80EC650016F2AC /* Assets.xcassets */; };
@@ -33,15 +56,40 @@
 		60C13983F95DCA9AC0D6C128 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AB1B26261CA3375200BDE9FA /* PhoneCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCore.swift; sourceTree = "<group>"; };
 		AB1B26281CA5E0AE00BDE9FA /* Bible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bible.swift; sourceTree = "<group>"; };
-		AB1DAB151C815971009B4382 /* gllogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gllogo.jpg; path = "../../../Documents/CUW/Senior/Spring/CSC 491 Senior Sem II/gllogo.jpg"; sourceTree = "<group>"; };
+		AB543F671CD7F68400030CD1 /* church.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = church.png; sourceTree = SOURCE_ROOT; };
+		AB543F681CD7F68400030CD1 /* ecc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecc.png; sourceTree = SOURCE_ROOT; };
+		AB543F691CD7F68400030CD1 /* school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = school.png; sourceTree = SOURCE_ROOT; };
+		AB543F6E1CD9561E00030CD1 /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = SOURCE_ROOT; };
+		AB543F6F1CD9561E00030CD1 /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = SOURCE_ROOT; };
+		AB543F701CD9561E00030CD1 /* logo87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo87.png; sourceTree = SOURCE_ROOT; };
+		AB543F711CD9561E00030CD1 /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = SOURCE_ROOT; };
+		AB543F721CD9561E00030CD1 /* logo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo180.png; sourceTree = SOURCE_ROOT; };
+		AB543F781CDA818700030CD1 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = SOURCE_ROOT; };
+		AB543F7A1CDA875D00030CD1 /* square-individual-nine-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-individual-nine-7.png"; sourceTree = SOURCE_ROOT; };
+		AB543F7C1CDA87EF00030CD1 /* book-cover-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-cover-7.png"; sourceTree = SOURCE_ROOT; };
+		AB543F7D1CDA87EF00030CD1 /* calendar-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-7.png"; sourceTree = SOURCE_ROOT; };
 		AB6DC89A1CC5C4450069B3CA /* Prayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prayers.swift; sourceTree = "<group>"; };
 		AB6DC89C1CC5C4510069B3CA /* Newsletters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Newsletters.swift; sourceTree = "<group>"; };
 		AB6DC8A01CC5C46E0069B3CA /* Facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook.swift; sourceTree = "<group>"; };
 		AB6DC8A21CC5C47B0069B3CA /* Donations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donations.swift; sourceTree = "<group>"; };
 		AB6DC8A41CC5C4890069B3CA /* Service Times.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service Times.swift"; sourceTree = "<group>"; };
 		AB6DC8C41CC6F1670069B3CA /* Submit Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Submit Prayer.swift"; sourceTree = "<group>"; };
-		AB6DC8C61CC6FB1A0069B3CA /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = SOURCE_ROOT; };
 		AB6DC8C81CC725E70069B3CA /* lcms-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lcms-logo.png"; sourceTree = SOURCE_ROOT; };
+		AB6EB7161CD1B01900F01C0E /* Grace Lutheran-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grace Lutheran-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB6EB7191CD1B14300F01C0E /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		AB6EB71A1CD2956900F01C0E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AB6EB71B1CD2956900F01C0E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB6EB71C1CD2956900F01C0E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB6EB71D1CD2956900F01C0E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB6EB71E1CD2956900F01C0E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AB6EB71F1CD2956900F01C0E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AB6EB7201CD2956900F01C0E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AB6EB7211CD2956900F01C0E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		AB6EB7221CD2956900F01C0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB6EB72C1CD3EA8400F01C0E /* Contact Us.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact Us.swift"; sourceTree = "<group>"; };
+		AB6EB72E1CD4501400F01C0E /* lcmslogowwords.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcmslogowwords.jpeg; sourceTree = SOURCE_ROOT; };
+		AB6EB7301CD4526200F01C0E /* gllogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gllogo.jpg; sourceTree = SOURCE_ROOT; };
+		AB6EB7321CD4816800F01C0E /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		AB7970E01C80EC650016F2AC /* Grace Lutheran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grace Lutheran.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7970E31C80EC650016F2AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7970E81C80EC650016F2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +109,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6EB7231CD2956900F01C0E /* Accelerate.framework in Frameworks */,
+				AB6EB7241CD2956900F01C0E /* AudioToolbox.framework in Frameworks */,
+				AB6EB7251CD2956900F01C0E /* AVFoundation.framework in Frameworks */,
+				AB6EB7261CD2956900F01C0E /* CoreLocation.framework in Frameworks */,
+				AB6EB7271CD2956900F01C0E /* CoreMedia.framework in Frameworks */,
+				AB6EB7281CD2956900F01C0E /* MessageUI.framework in Frameworks */,
+				AB6EB7291CD2956900F01C0E /* MobileCoreServices.framework in Frameworks */,
+				AB6EB72A1CD2956900F01C0E /* SafariServices.framework in Frameworks */,
+				AB6EB72B1CD2956900F01C0E /* SystemConfiguration.framework in Frameworks */,
 				FF264F0DD3EAC7A9BC823C5F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +128,15 @@
 		6B6D35FE54FE271004D4793B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB6EB71A1CD2956900F01C0E /* Accelerate.framework */,
+				AB6EB71B1CD2956900F01C0E /* AudioToolbox.framework */,
+				AB6EB71C1CD2956900F01C0E /* AVFoundation.framework */,
+				AB6EB71D1CD2956900F01C0E /* CoreLocation.framework */,
+				AB6EB71E1CD2956900F01C0E /* CoreMedia.framework */,
+				AB6EB71F1CD2956900F01C0E /* MessageUI.framework */,
+				AB6EB7201CD2956900F01C0E /* MobileCoreServices.framework */,
+				AB6EB7211CD2956900F01C0E /* SafariServices.framework */,
+				AB6EB7221CD2956900F01C0E /* SystemConfiguration.framework */,
 				E3F5E9A3F55CF9DEB4972279 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -83,6 +149,18 @@
 				BFC69DC1F824AEB669AD0523 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB543F6D1CD955FE00030CD1 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				AB543F6E1CD9561E00030CD1 /* logo58.png */,
+				AB543F6F1CD9561E00030CD1 /* logo80.png */,
+				AB543F701CD9561E00030CD1 /* logo87.png */,
+				AB543F711CD9561E00030CD1 /* logo120.png */,
+				AB543F721CD9561E00030CD1 /* logo180.png */,
+			);
+			name = AppIcon;
 			sourceTree = "<group>";
 		};
 		AB6DC8CC1CC73AEB0069B3CA /* Main */ = {
@@ -102,11 +180,13 @@
 			children = (
 				AB1B26281CA5E0AE00BDE9FA /* Bible.swift */,
 				AB6DC89A1CC5C4450069B3CA /* Prayers.swift */,
+				AB6DC8C41CC6F1670069B3CA /* Submit Prayer.swift */,
 				AB6DC89C1CC5C4510069B3CA /* Newsletters.swift */,
 				AB6DC8A01CC5C46E0069B3CA /* Facebook.swift */,
 				AB6DC8A21CC5C47B0069B3CA /* Donations.swift */,
 				AB6DC8A41CC5C4890069B3CA /* Service Times.swift */,
-				AB6DC8C41CC6F1670069B3CA /* Submit Prayer.swift */,
+				AB6EB72C1CD3EA8400F01C0E /* Contact Us.swift */,
+				AB6EB7321CD4816800F01C0E /* Directions.swift */,
 			);
 			name = More;
 			sourceTree = "<group>";
@@ -148,6 +228,8 @@
 				AB7970EA1C80EC650016F2AC /* Assets.xcassets */,
 				AB7970EC1C80EC650016F2AC /* LaunchScreen.storyboard */,
 				AB7970EF1C80EC650016F2AC /* Info.plist */,
+				AB6EB7161CD1B01900F01C0E /* Grace Lutheran-Bridging-Header.h */,
+				AB6EB7191CD1B14300F01C0E /* ZZAppDelegate.h */,
 			);
 			path = "Grace Lutheran";
 			sourceTree = "<group>";
@@ -155,9 +237,17 @@
 		AB7970FD1C80F1FA0016F2AC /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				AB543F7C1CDA87EF00030CD1 /* book-cover-7.png */,
+				AB543F7D1CDA87EF00030CD1 /* calendar-7.png */,
+				AB543F7A1CDA875D00030CD1 /* square-individual-nine-7.png */,
+				AB543F781CDA818700030CD1 /* Home.png */,
+				AB543F6D1CD955FE00030CD1 /* AppIcon */,
+				AB543F671CD7F68400030CD1 /* church.png */,
+				AB543F681CD7F68400030CD1 /* ecc.png */,
+				AB543F691CD7F68400030CD1 /* school.png */,
+				AB6EB7301CD4526200F01C0E /* gllogo.jpg */,
+				AB6EB72E1CD4501400F01C0E /* lcmslogowwords.jpeg */,
 				AB6DC8C81CC725E70069B3CA /* lcms-logo.png */,
-				AB6DC8C61CC6FB1A0069B3CA /* Home.png */,
-				AB1DAB151C815971009B4382 /* gllogo.jpg */,
 			);
 			name = Pictures;
 			sourceTree = "<group>";
@@ -191,7 +281,7 @@
 		AB7970D81C80EC650016F2AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Grace Lutheran - Oak Creek";
 				TargetAttributes = {
@@ -225,9 +315,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7970EE1C80EC650016F2AC /* LaunchScreen.storyboard in Resources */,
-				AB1DAB161C815971009B4382 /* gllogo.jpg in Resources */,
-				AB6DC8C71CC6FB1A0069B3CA /* Home.png in Resources */,
+				AB543F7B1CDA875D00030CD1 /* square-individual-nine-7.png in Resources */,
+				AB543F761CD9561E00030CD1 /* logo120.png in Resources */,
+				AB543F7F1CDA87EF00030CD1 /* calendar-7.png in Resources */,
+				AB543F751CD9561E00030CD1 /* logo87.png in Resources */,
+				AB543F7E1CDA87EF00030CD1 /* book-cover-7.png in Resources */,
+				AB543F6A1CD7F68400030CD1 /* church.png in Resources */,
+				AB543F731CD9561E00030CD1 /* logo58.png in Resources */,
+				AB543F6B1CD7F68400030CD1 /* ecc.png in Resources */,
+				AB6EB7311CD4526200F01C0E /* gllogo.jpg in Resources */,
+				AB543F741CD9561E00030CD1 /* logo80.png in Resources */,
 				AB7970EB1C80EC650016F2AC /* Assets.xcassets in Resources */,
+				AB6EB72F1CD4501400F01C0E /* lcmslogowwords.jpeg in Resources */,
+				AB543F771CD9561E00030CD1 /* logo180.png in Resources */,
+				AB543F6C1CD7F68400030CD1 /* school.png in Resources */,
+				AB543F791CDA818700030CD1 /* Home.png in Resources */,
 				AB7970E91C80EC650016F2AC /* Main.storyboard in Resources */,
 				AB6DC8C91CC725E70069B3CA /* lcms-logo.png in Resources */,
 			);
@@ -292,6 +394,7 @@
 				AB7970FA1C80F1080016F2AC /* Daily Devotion Page.swift in Sources */,
 				AB6DC89B1CC5C4450069B3CA /* Prayers.swift in Sources */,
 				AB7970F81C80ED710016F2AC /* Calendar Page.swift in Sources */,
+				AB6EB7331CD4816800F01C0E /* Directions.swift in Sources */,
 				AB1B26291CA5E0AE00BDE9FA /* Bible.swift in Sources */,
 				AB6DC8A51CC5C4890069B3CA /* Service Times.swift in Sources */,
 				AB7970E41C80EC650016F2AC /* AppDelegate.swift in Sources */,
@@ -301,6 +404,7 @@
 				AB7970FC1C80F1180016F2AC /* More Page.swift in Sources */,
 				AB7970F61C80ED5B0016F2AC /* About Page.swift in Sources */,
 				AB6DC8C51CC6F1670069B3CA /* Submit Prayer.swift in Sources */,
+				AB6EB72D1CD3EA8400F01C0E /* Contact Us.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +516,14 @@
 			baseConfigurationReference = 60C13983F95DCA9AC0D6C128 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Grace Lutheran/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GLOK.Grace-Lutheran";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grace Lutheran/Grace Lutheran-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -424,10 +532,13 @@
 			baseConfigurationReference = BFC69DC1F824AEB669AD0523 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Grace Lutheran/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GLOK.Grace-Lutheran";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grace Lutheran/Grace Lutheran-Bridging-Header.h";
 			};
 			name = Release;
 		};

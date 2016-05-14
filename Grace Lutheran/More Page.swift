@@ -20,8 +20,8 @@ class More_Page: UIViewController, UITableViewDelegate, UITableViewDataSource
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        PhoneCore.moreItems = ["Bible", "Prayers", "Newsletters", "Facebook", "Service Times"]
-        self.lcmsLogoImage.image = UIImage(named: "lcms-logo.png")
+        PhoneCore.moreItems = ["Bible", "Prayers", "Prayer Request", "Newsletters", "Facebook", "Service Times", "Donations", "Contact Us", "Directions"]
+        self.lcmsLogoImage.image = UIImage(named: "gllogo.jpg")
 
         
     }
